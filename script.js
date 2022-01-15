@@ -1,13 +1,5 @@
-console.log('Holii')
-    $("#menu").click(function() {
-       $(this).toggleClass("on");
-        $("#submenu").slideToggle();
-      });
-    $("#submenu").mouseleave(function(){
-        $("#submenu").toggle();
-       })
- 
-    $("#menu").hover(function() {
-        $(this).toggleClass("on");
-         $("#submenu").slideToggle();
-       });
+$(document).ready(function(){
+  $( "#obras" ).hover(function() {
+    $( "#fecha" ).slideDown( "slow" ).delay(3000).slideUp();
+  });
+});

@@ -41,7 +41,7 @@ a:active{
 	list-style-type: none;	
 	text-decoration: none;
 }
-#submenu {
+#fecha {
 	display: none;
 }
 .contenido{
@@ -50,6 +50,7 @@ a:active{
 }
 
 .footer{
+	padding-top: 40%;
 	grid-row-start: 3;
 }
 
