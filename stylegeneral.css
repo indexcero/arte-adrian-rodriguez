@@ -3,6 +3,9 @@ a {
 	color: black;
 	font-weight: 600;
 }
+
+
+
 #imag_link:hover{
 	opacity: 90%;
 }
@@ -92,6 +95,10 @@ a:active{
 	text-align: justify;
 	line-height: 2em;
 }
+.contenido ul{
+	list-style: none;
+	font-weight: 900;
+}
 
 .footer{
 	padding-top: 40%;
@@ -123,6 +130,26 @@ img {
 
 .profile_pic {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
+	padding: 20px;
 }
+
+.grid-contacto {
+	display: grid;
+	grid-template-columns: 18% 55%;
+	grid-auto-rows: minmax(100px, auto);
+	grid-column-gap: 3em;
+	grid-row-gap: 1em;
+	line-height: 1.7em;
+  }
+  
+.fotografia-contacto {
+	grid-column: 1;
+	margin-bottom: 50px;
+  }
+  
+.link-contacto {
+	grid-column: 2;
+	margin-bottom: 50px;
+  }
