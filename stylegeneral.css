@@ -3,7 +3,9 @@ a {
 	color: black;
 	font-weight: 600;
 }
-
+#imag_link:hover{
+	opacity: 90%;
+}
 a:hover {
 	color:grey;
 }
@@ -44,16 +46,83 @@ a:active{
 #fecha {
 	display: none;
 }
+
+#element {
+	line-height: 2em;
+}
+#veintiun{
+	display: none;
+	line-height: 2em;
+}
+#veintiun > li:not(:last-child) {
+	padding-bottom: 15px;
+}
+#veinte{
+	display: none;
+	line-height: 2em;
+}
+#veinte > li:not(:last-child) {
+	padding-bottom: 15px;
+}
+#diecinueve{
+	display: none;
+	line-height: 2em;
+}
+#diecinueve > li:not(:last-child) {
+	padding-bottom: 15px;
+}
+#dieciocho{
+	display: none;
+	line-height: 2em;
+}
+#dieciocho > li:not(:last-child) {
+	padding-bottom: 15px;
+}
+#diecisiete{
+	display: none;
+	line-height: 2em;
+}
+#diecisiete > li:not(:last-child) {
+	padding-bottom: 15px;
+}
+
 .contenido{
 	text-indent: 3em;
 	grid-row-start: 2;
+	text-align: justify;
+	line-height: 2em;
 }
 
 .footer{
 	padding-top: 40%;
 	grid-row-start: 3;
+	font-size: 0.8em;
 }
-
+.li{
+	margin-bottom: 5%;
+}
 h1 {
 	font-size: 1.3em;
+	padding-bottom: 0.1em;
+}
+
+h2 {
+	font-size: 1em;
+}
+
+h3{
+	font-size: 0.8em;
+	font-weight: 100;
+}
+
+img {
+    width: 100%;
+    align-self: center;
+    float: left;
+}
+
+.profile_pic {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
 }
