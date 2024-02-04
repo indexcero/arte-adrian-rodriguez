@@ -137,7 +137,7 @@ img {
 
 .grid-contacto {
 	display: grid;
-	grid-template-columns: 14% 55%
+	grid-template-columns: 14% 55%;
 	grid-row-gap: 2.5em;
   }
   
