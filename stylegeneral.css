@@ -126,6 +126,7 @@ img {
     width: 100%;
     align-self: center;
     float: left;
+	padding-bottom: 50px;
 }
 
 .profile_pic {
